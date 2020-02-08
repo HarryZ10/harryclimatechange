@@ -445,6 +445,29 @@ a:hover {
   padding-left: 0;
 }
 
+.transparentbar {
+  background-repeat:no-repeat;
+  cursor:pointer;
+  outline:none;
+  border:none;
+  box-shadow:none; 
+  background-image: none;
+
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+
+}
+
+.navbar-default:hover,
+.navbar-default:focus,
+.navbar-default:active{
+  
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-color: rgba(255,255,255, 0);
+  box-shadow: none !important;
+}
+
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
