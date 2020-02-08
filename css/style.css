@@ -23,6 +23,15 @@ h6 {
   color: #1e1e1e;
 }
 
+.signup{
+  color: black;
+}
+
+div#registration{
+  width: 500px;
+  margin-left: 300px;
+}
+
 video.FullScreen{
   position: fixed;
   top: 50%;
@@ -95,6 +104,9 @@ a:hover {
 }
 
 .bg-image {
+  height: 100%;
+  background-image: url(../img/overlay-bg.jpg);
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
