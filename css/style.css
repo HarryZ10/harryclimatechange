@@ -16,7 +16,7 @@ h6 {
   color: black;
 }
 
-div#registration{
+div#registration.jumbotron{
   width: 500px;
   margin-left: 300px;
 }
